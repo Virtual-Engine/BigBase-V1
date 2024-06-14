@@ -24,5 +24,5 @@ BigBase V1 For Grand Theft Auto V
 
 # Screen Shot
 
-![](console.png)
-![](menu.png)
+![](consolelog.png)
+![](mainmenu.png)
