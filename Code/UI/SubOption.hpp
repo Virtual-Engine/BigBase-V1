@@ -23,15 +23,15 @@ namespace Big::UserInterface
 		SubOption(SubOption&&) = default;
 		SubOption& operator=(SubOption&&) = default;
 
-		SubOption addSubmenu(std::uint32_t subId, OptionAction action = OptionAction::EnterPress)
+		void HandleAction(OptionAction action) override
 		{
 			if (action == OptionAction::EnterPress)
 			{
-				g_UiManager->SwitchToSubmenu(m_SubId);
+				g_Ui->SwitchToSubmenu(m_SubId);
 			}
 
 			BaseOption::HandleAction(action);
-		}
+}
 
 		SubOption addName(std::string name)
 		{
