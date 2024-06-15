@@ -27,7 +27,7 @@ namespace Big::UserInterface
 		{
 			if (action == OptionAction::EnterPress)
 			{
-				g_Ui->SwitchToSubmenu(m_SubId);
+				g_UiManager->SwitchToSubmenu(m_SubId);
 			}
 
 			BaseOption::HandleAction(action);
