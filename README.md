@@ -10,7 +10,7 @@ BigBase V1 For Grand Theft Auto V
 - Script
 - Logger
 - Unloading at runtime
-- 
+- Discord RPC
 # Update
 
 - Updated Native
