@@ -1,6 +1,6 @@
 # BigBase V1
 
-My Discord : xifi_yt
+My Discord : xifi_yt\n
 BigBase V1 For Grand Theft Auto V
 
 # Alternative
